@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-orangehrma">
+              <span class="suite-name border-failed">orangehrma</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-orangehrma">
+                    <span>C:\Users\santhoshp\workspace\orangehrm\src\orangehrma\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-orangehrma">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-orangehrma">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-orangehrma">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-orangehrma">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-orangehrma">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-orangehrma">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-orangehrma" class="hide-methods failed suite-orangehrma"> (hide)</a> <!-- hide-methods failed suite-orangehrma -->
+                      <a href="#" panel-name="suite-orangehrma" class="show-methods failed suite-orangehrma"> (show)</a> <!-- show-methods failed suite-orangehrma -->
+                    </span>
+                    <div class="method-list-content failed suite-orangehrma">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod8">TestMethod8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-orangehrma -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-orangehrma" class="hide-methods passed suite-orangehrma"> (hide)</a> <!-- hide-methods passed suite-orangehrma -->
+                      <a href="#" panel-name="suite-orangehrma" class="show-methods passed suite-orangehrma"> (show)</a> <!-- show-methods passed suite-orangehrma -->
+                    </span>
+                    <div class="method-list-content passed suite-orangehrma">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod1">TestMethod1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod2">TestMethod2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod3">TestMethod3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod4">TestMethod4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod5">TestMethod5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod6">TestMethod6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-orangehrma" title="orangehrma.HrmMain" hash-for-method="TestMethod7">TestMethod7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-orangehrma -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-orangehrma" class="panel orangehrma">
+          <div class="suite-orangehrma-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">orangehrma.HrmMain</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod8">
+                  </a> <!-- TestMethod8 -->
+                  <span class="method-name">TestMethod8</span>
+                  <div class="stack-trace">java.lang.AssertionError: Element could not be found, Employee name entry should exist inorder to delete it expected [true] but found [false]
+	at orangehrma.HrmMain.TestMethod8(HrmMain.java:335)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Delete a Customer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-orangehrma-class-failed -->
+          <div class="suite-orangehrma-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">orangehrma.HrmMain</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod1">
+                  </a> <!-- TestMethod1 -->
+                  <span class="method-name">TestMethod1</span>
+                  <em>
+(Login as admin)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod2">
+                  </a> <!-- TestMethod2 -->
+                  <span class="method-name">TestMethod2</span>
+                  <em>
+(Add an Employee)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod3">
+                  </a> <!-- TestMethod3 -->
+                  <span class="method-name">TestMethod3</span>
+                  <em>
+(Search an Employee by ID)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod4">
+                  </a> <!-- TestMethod4 -->
+                  <span class="method-name">TestMethod4</span>
+                  <em>
+(Search an Employee by Name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod5">
+                  </a> <!-- TestMethod5 -->
+                  <span class="method-name">TestMethod5</span>
+                  <em>
+(Edit Personal Details)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod6">
+                  </a> <!-- TestMethod6 -->
+                  <span class="method-name">TestMethod6</span>
+                  <em>
+(Add a Project)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMethod7">
+                  </a> <!-- TestMethod7 -->
+                  <span class="method-name">TestMethod7</span>
+                  <em>
+(Add a Customer)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-orangehrma-class-passed -->
+        </div> <!-- panel orangehrma -->
+        <div panel-name="test-xml-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\santhoshp\workspace\orangehrm\src\orangehrma\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;orangehrma&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;orangehrma.DotTestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Sanity&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;orangehrma.HrmMain&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TestMethod1&quot;/&gt;
+          &lt;include name=&quot;TestMethod2&quot;/&gt;
+          &lt;include name=&quot;TestMethod3&quot;/&gt;
+          &lt;include name=&quot;TestMethod4&quot;/&gt;
+          &lt;include name=&quot;TestMethod5&quot;/&gt;
+          &lt;include name=&quot;TestMethod6&quot;/&gt;
+          &lt;include name=&quot;TestMethod7&quot;/&gt;
+          &lt;include name=&quot;TestMethod8&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- orangehrma.HrmMain --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity --&gt;
+&lt;/suite&gt; &lt;!-- orangehrma --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for orangehrma</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for orangehrma</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for orangehrma</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_orangehrma');
+function tableData_orangehrma() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestMethod5')
+data.setCell(0, 2, 'orangehrma.HrmMain')
+data.setCell(0, 3, 31143);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestMethod2')
+data.setCell(1, 2, 'orangehrma.HrmMain')
+data.setCell(1, 3, 30083);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestMethod6')
+data.setCell(2, 2, 'orangehrma.HrmMain')
+data.setCell(2, 3, 29460);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestMethod7')
+data.setCell(3, 2, 'orangehrma.HrmMain')
+data.setCell(3, 3, 28114);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestMethod3')
+data.setCell(4, 2, 'orangehrma.HrmMain')
+data.setCell(4, 3, 27448);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestMethod8')
+data.setCell(5, 2, 'orangehrma.HrmMain')
+data.setCell(5, 3, 26559);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestMethod4')
+data.setCell(6, 2, 'orangehrma.HrmMain')
+data.setCell(6, 3, 24756);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestMethod1')
+data.setCell(7, 2, 'orangehrma.HrmMain')
+data.setCell(7, 3, 16711);
+window.suiteTableData['orangehrma']= { tableData: data, tableDiv: 'times-div-orangehrma'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-orangehrma">
+              </div> <!-- times-div-orangehrma -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for orangehrma</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-orangehrma" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">orangehrma.HrmMain</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod1</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">16756 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod2</span>
+                <span class="method-start">16757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">46847 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod3</span>
+                <span class="method-start">46848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">74300 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod4</span>
+                <span class="method-start">74301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">99065 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod5</span>
+                <span class="method-start">99065 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">130212 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod6</span>
+                <span class="method-start">130212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">159679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMethod7</span>
+                <span class="method-start">159679 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeInit</span>
+                <span class="method-start">187796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TestMethod8</span>
+                <span class="method-start">187797 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

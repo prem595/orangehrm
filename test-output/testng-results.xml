@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="orangehrma" duration-ms="237237" started-at="2013-11-05T10:19:46Z" finished-at="2013-11-05T10:23:43Z">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="237237" started-at="2013-11-05T10:19:46Z" finished-at="2013-11-05T10:23:43Z">
+      <class name="orangehrma.HrmMain">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeTest" is-config="true" duration-ms="13" started-at="2013-11-05T15:50:09Z" finished-at="2013-11-05T15:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="TestMethod1()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod1" duration-ms="16711" started-at="2013-11-05T15:50:09Z" description="Login as admin" finished-at="2013-11-05T15:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod1 -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="0" started-at="2013-11-05T15:50:09Z" finished-at="2013-11-05T15:50:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="1" started-at="2013-11-05T15:50:26Z" finished-at="2013-11-05T15:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="TestMethod2()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod2" duration-ms="30083" started-at="2013-11-05T15:50:26Z" description="Add an Employee" finished-at="2013-11-05T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod2 -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="1" started-at="2013-11-05T15:50:56Z" finished-at="2013-11-05T15:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="TestMethod3()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod3" duration-ms="27448" started-at="2013-11-05T15:50:56Z" description="Search an Employee by ID" finished-at="2013-11-05T15:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod3 -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="1" started-at="2013-11-05T15:51:23Z" finished-at="2013-11-05T15:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="TestMethod4()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod4" duration-ms="24756" started-at="2013-11-05T15:51:23Z" description="Search an Employee by Name" finished-at="2013-11-05T15:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod4 -->
+        <test-method status="PASS" signature="TestMethod5()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod5" duration-ms="31143" started-at="2013-11-05T15:51:48Z" description="Edit Personal Details" finished-at="2013-11-05T15:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod5 -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="0" started-at="2013-11-05T15:51:48Z" finished-at="2013-11-05T15:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="0" started-at="2013-11-05T15:52:19Z" finished-at="2013-11-05T15:52:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="TestMethod6()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod6" duration-ms="29460" started-at="2013-11-05T15:52:19Z" description="Add a Project" finished-at="2013-11-05T15:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod6 -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="0" started-at="2013-11-05T15:52:49Z" finished-at="2013-11-05T15:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="PASS" signature="TestMethod7()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod7" duration-ms="28114" started-at="2013-11-05T15:52:49Z" description="Add a Customer" finished-at="2013-11-05T15:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod7 -->
+        <test-method status="PASS" signature="BeforeInit()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="BeforeInit" is-config="true" duration-ms="1" started-at="2013-11-05T15:53:17Z" finished-at="2013-11-05T15:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeInit -->
+        <test-method status="FAIL" signature="TestMethod8()[pri:0, instance:orangehrma.HrmMain@1e62b84]" name="TestMethod8" duration-ms="26559" started-at="2013-11-05T15:53:17Z" description="Delete a Customer" finished-at="2013-11-05T15:53:43Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Element could not be found, Employee name entry should exist inorder to delete it expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Element could not be found, Employee name entry should exist inorder to delete it expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at orangehrma.HrmMain.TestMethod8(HrmMain.java:335)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod8 -->
+      </class> <!-- orangehrma.HrmMain -->
+    </test> <!-- Sanity -->
+  </suite> <!-- orangehrma -->
+</testng-results>

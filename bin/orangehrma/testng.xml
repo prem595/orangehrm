@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="orangehrma">
+	<listeners>
+		<listener class-name="orangehrma.DotTestListener" />		
+	</listeners>
+
+
+	<test name="Sanity">
+		<classes>
+			<class name="orangehrma.HrmMain" ></class>
+			<methods>
+				<include name="TestMethod1" />
+				<include name="TestMethod2" />
+				<include name="TestMethod3" />
+				<include name="TestMethod4" />
+				<include name="TestMethod5" /> 
+				<include name="TestMethod6" />			 
+				<include name="TestMethod7" /> 
+				<include name="TestMethod8" /> 
+			</methods>
+		</classes>
+	</test>
+
+
+</suite>
